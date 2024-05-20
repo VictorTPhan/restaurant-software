@@ -27,11 +27,11 @@ class LoginPage extends StatelessWidget {
           children: [
             Center(
               child: Container(
-                height: 85,
+                height: 110,
                 width: 110,
                 decoration: const BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage('assets/images/logo.png'),
+                    image: AssetImage('assets/images/dinesoft logo.png'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -45,7 +45,7 @@ class LoginPage extends StatelessWidget {
         children: <Widget>[
           const SizedBox(height: 50),
           const Text(
-            'Restaurant',
+            'DineSoft',
             textAlign: TextAlign.center,
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
           ),

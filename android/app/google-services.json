@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "735953150088",
+    "project_id": "resturant--softmare",
+    "storage_bucket": "resturant--softmare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735953150088:android:d46ab1f31c1daf6416bf3d",
+        "android_client_info": {
+          "package_name": "com.app.restaurantsoftware"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAndf5GmoLd3TVan8ICpDAUPmPKhanh7gY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

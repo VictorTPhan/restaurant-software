@@ -21,6 +21,7 @@ class _RegisterManagerPageState extends State<RegisterManagerPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         title: Text("Register as Manager"),
         backgroundColor: const Color(0xFF68A268),

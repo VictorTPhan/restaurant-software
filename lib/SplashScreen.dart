@@ -74,7 +74,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 children: [
                   const Spacer(),
                   const Text(
-                    'Restaurant',
+                    'DineSoft',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 40,
@@ -83,11 +83,11 @@ class _SplashScreenState extends State<SplashScreen> {
                   ),
                   const Spacer(),
                   Container(
-                    height: 100,
+                    height: 200,
                     width: 200,
                     decoration: const BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage('assets/logo.png'),
+                        image: AssetImage('assets/images/dinesoft logo.png'),
                         fit: BoxFit.cover,
                       ),
                     ),

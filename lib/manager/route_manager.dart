@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:restaurantsoftware/loginPage.dart';
+import 'package:restaurantsoftware/manager/delete_account.dart';
 import 'package:restaurantsoftware/manager/emergency_contact_screen.dart';
 import 'package:restaurantsoftware/manager/signup_screen.dart';
 import 'package:restaurantsoftware/manager/weekly_schedule.dart';
@@ -25,7 +26,8 @@ class _RouteManagerPageState extends State<RouteManagerPage> {
     return [
       WeeklySchedulePage(),
       EmergencyContactPage(),
-      Signup(), // Add User Page
+      Signup(),
+      DeleteAccount()
     ];
   }
 
@@ -65,6 +67,10 @@ class _RouteManagerPageState extends State<RouteManagerPage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.person_add),
             label: 'Add User',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.delete),
+            label: 'Delete Account',
           ),
         ],
         currentIndex: _selectedIndex,
